@@ -2,7 +2,7 @@ int startx = 150;
 int starty = 0;
 int endx = 0;
 int endy = 150;
-int timer =0;
+int vtimer =0;
 
 void setup()
 {
@@ -51,9 +51,9 @@ endy = 150;
 void timer()
 {
 
-	if(timer==20){
-		timer=0;
+	if(vtimer==20){
+		vtimer=0;
 		background(0);
 	}
-	timer++;
+	vtimer++;
 }
