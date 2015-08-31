@@ -45,7 +45,7 @@ public void lightning(){
  }
 }
 public void lighting(){
-  int lightr=(int)(Math.random()*10);
+  int lightr=(int)(Math.random()*8);
   if(lightr>2){
     background(0);
   }
